@@ -1,0 +1,42 @@
+.main{
+    background-color: #CECECE;
+    display: flex;
+}
+
+.example1{
+    position: relative;
+    background-color: #DBDF9B;
+    border-radius: 5px;
+    margin: 0 20px;
+    width: 510px;
+    height: 350px;
+    top: 200px;
+}
+
+.example2{
+    position: relative;
+    background-color: #DBDF9B;
+    border-radius: 5px;
+    margin: 0 20px;
+    width: 510px;
+    height: 350px;
+    top: 200px;
+}
+
+.example3{
+    position: relative;
+    background-color: #DBDF9B;
+    border-radius: 5px;
+    margin: 0 20px;
+    width: 510px;
+    height: 350px;
+    top: 200px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}

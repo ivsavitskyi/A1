@@ -1,0 +1,99 @@
+.main{
+    background-color: #CECECE;
+    display: flex;
+    background-image: url("fon.png");
+}
+
+
+.sample1 {
+    position: relative;
+    background-color: #DBDF9B;
+    border-radius: 5px;
+    margin: 0 20px;
+    width: 510px;
+    height: 350px;
+    top: 200px;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.sample1:hover {
+    animation-duration: 0.5s;
+    animation-name: move;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0) translateY(0);
+    }
+    to {
+        transform: translateX(5px) translateY(-5px);
+    }
+}
+
+.sample2{
+    position: relative;
+    background-color: #DBDF9B;
+    border-radius: 5px;
+    margin: 0 20px;
+    width: 510px;
+    height: 350px;
+    top: 200px;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.sample2:hover {
+    animation-duration: 0.5s;
+    animation-name: move;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0) translateY(0);
+    }
+    to {
+        transform: translateX(5px) translateY(-5px);
+    }
+}
+
+.sample3{
+    position: relative;
+    background-color: #DBDF9B;
+    border-radius: 5px;
+    margin: 0 20px;
+    width: 510px;
+    height: 350px;
+    top: 200px;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.sample3:hover {
+    animation-duration: 0.5s;
+    animation-name: move;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0) translateY(0);
+    }
+    to {
+        transform: translateX(5px) translateY(-5px);
+    }
+}
+
+h1{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
